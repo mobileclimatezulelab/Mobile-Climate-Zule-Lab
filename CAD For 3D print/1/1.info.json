@@ -1,0 +1,56 @@
+{
+    "version": 0,
+    "model_name": "simplified assembly.SLDASM",
+    "project_name": "Project(1)",
+    "config_name": "Default",
+    "project_path": "\\\\Mac\\Home\\Downloads\\OneDrive_2024-03-27\\New Design\\1\\1.xmlconfig",
+    "finished": false,
+    "mesh": {
+        "cells_total": 222190,
+        "cells_fluid": 222190,
+        "cells_solid": 8596,
+        "cells_fluid_containing_solid": 8413
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "01:31:08-0400",
+        "prepare_geometry_total_time": 20,
+        "cpu_time_solver_total": 81,
+        "iteration": 5,
+        "travel": 0.041276085887813105,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "01:31:57-0400",
+        "cpu_time_per_last_iter": 12,
+        "cpu_time_left": 3564,
+        "iterations_per_travel": 121
+    },
+    "goals": [],
+    "settings": {
+        "default_fluids": [
+            "Water",
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2023  x64 / 5863 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2023 SP1.0",
+        "computer_name": "ESLAMOTHMA8B71",
+        "user_name": "eslamothman",
+        "os": "Windows 11 (or higher) (Version 10.0.22621)",
+        "cpu": "                          Virtual CPU @ 3.20GHz",
+        "number_of_cores": 4,
+        "memory_avail": 9528,
+        "memory_total": 16379
+    }
+}
