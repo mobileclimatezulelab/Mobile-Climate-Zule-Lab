@@ -22,7 +22,7 @@ float readBatteryVoltage() {
 // Function to calculate battery percentage
 float batteryPercentage(float voltage) {
     float maxVoltage = 4.8; // Maximum voltage of 4 fully charged AA batteries
-    float minVoltage = 0.04; // Minimum voltage of 4 discharged AA batteries
+    float minVoltage = 3.2; // Minimum voltage of 4 discharged AA batteries
     float percentage = (voltage - minVoltage) / (maxVoltage - minVoltage) * 100;
     percentage = constrain(percentage, 0, 100); // Ensure the percentage is between 0 and 100
     return percentage;
